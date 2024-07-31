@@ -169,96 +169,31 @@ body, html {
 }
 
 .northside img {
-    height: 50%;
+    height: 100%;
     width: auto;
-    transition: transform 0.3s ease-in-out;
 }
 
-.northside:hover {
-    z-index: 10; /* Bring the image container to the top on hover */
-}
-
-.northside:hover img {
-    transform: scale(1.1); /* Scale image to 110% of its size on hover */
-}
-
-.tay-bac-bo {
+.vietnam-map {
     position: absolute;
-    height: 60%;
+    height: 180%;
     width: auto;
-    top: 235px;
-    left: 350px;
-}
-
-.dong-bac-bo {
-    position: absolute;
-    height: 65%;
-    width: auto;
-    top: 183px;
-    left: 539px;
-}
-
-.dong-bang-sh {
-    position: absolute;
-    height: 38%;
-    width: auto;
-    top: 352px;
-    left: 618px;
-}
-
-.bac-trung-bo {
-    position: absolute;
-    height: 108%;
-    width: auto;
-    top: 432px;
-    left: 494px;
-}
-
-.nam-trung-bo {
-    position: absolute;
-    height: 125%;
-    width: auto;
-    top: 827px;
-    left: 775px;
-}
-
-.tay-nguyen {
-    position: absolute;
-    height: 92%;
-    width: auto;
-    top: 896px;
-    left: 782px;
-}
-
-.dong-nam-bo {
-    position: absolute;
-    height: 44%;
-    width: auto;
-    top: 1153px;
-    left: 663px;
-}
-
-.dbscl {
-    position: absolute;
-    height: 50%;
-    width: auto;
-    top: 1261px;
-    left: 520px;
+    top: 140px;
+    left: 320px;
 }
 
 .hoangsa {
     position: absolute;
-    height: 40%;
+    height: 20%;
     width: auto;
     top: 700px;
-    right: 100px;
+    right: 80px;
 }
 
 .truongsa {
     position: absolute;
-    height: 40%;
+    height: 20%;
     width: auto;
-    top: 1300px;
+    top: 1350px;
     right: 50px;
 }
 
