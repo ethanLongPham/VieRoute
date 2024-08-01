@@ -355,7 +355,6 @@ body, html {
     width: auto; /* Maintain aspect ratio */
     max-width: 50%; /* Ensure it only takes up to 50% of the width */
     object-fit: contain; /* Ensure the image fits within the given area */
-    border-radius: 15px;
 }
 
 
@@ -441,10 +440,24 @@ body, html {
     height: auto; /* Maintain aspect ratio */
 }
 
+.media-button {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    z-index: 100;
+    position: relative;
+    top: 270px;
+}
+
+.media-button a, a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 .footer {
-    margin-top: 40px;
-    background-color: gray; /* Set the footer background color to gray */
-    padding: 150px 20px; /* Adjust padding as needed */
+    margin-top: 50px;
+    background-color: #28282B; /* Set the footer background color to gray */
+    padding: 80px 20px; /* Adjust padding as needed */
     text-align: center; /* Center-align text */
     position: relative; /* Ensure footer content is positioned correctly */
     z-index: 1; /* Ensure footer content appears above the image if necessary */
@@ -452,12 +465,10 @@ body, html {
 }
 
 .footer-logo {
-    max-width: 300px; /* Adjust the logo size as needed */
-    margin-bottom: 20px; /* Add space below the logo */
+    max-width: 400px; /* Adjust the logo size as needed */
+    margin-bottom: 40px; /* Add space below the logo */
 }
 
 .footer p {
     margin: 5px 0; /* Adjust margins for the text */
 }
-
-
