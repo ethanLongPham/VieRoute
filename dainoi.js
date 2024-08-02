@@ -2,7 +2,7 @@
 
 let currentImageIndex = 0;
 const images = [
-    'picture-vie/trada2.jpg',
+    'picture-vie/codohue.jpg',
 ];
 
 const texts = [
@@ -60,11 +60,11 @@ document.getElementById("moreButton").addEventListener("click", function() {
                 <p style="color: darkslategray;"><b>Blogs</b> &#183; Tác giả &#183; Châu Cổng</p>
             </div>
             <div class="story-container">
-                <a href="amthuccodo.html" target="_blank">
-                    <img src="picture-vie/amthuchue.jpg" alt="Saigon">
+                <a href="trada2.html" target="_blank">
+                    <img src="picture-vie/trada2.jpg" alt="Saigon">
                 </a>
-                <h3>Nền ẩm thực cố đô</h3>
-                <p>Theo sử sách, mỗi bữa ăn của vua Khải Định, Đồng Khánh, Minh Mạng… bắt buộc phải có từ 35 đến 50 món, trong đó có vài món thuộc “bát trân”, tức 8 món ăn quý nhất bao gồm...</p>
+                <h3>Tản mạn trà đá Hà Nội - Phần 2</h3>
+                <p>Trà đá luôn mang trong mình một nét đẹp bình dị. Chỉ cần một chiếc bàn gỗ tự chế, vài chiếc ghế dài hay ghế nhựa đơn sơ, mấy cái cốc thủy tinh, vài bao thuốc lá, hộp kẹo, hộp đựng thuốc lào,... </p>
                 <p style="color: darkslategray;"><b>Blogs</b> &#183; Tác giả &#183; Châu Cổng</p>
             </div>
             <div class="story-container">
@@ -78,13 +78,11 @@ document.getElementById("moreButton").addEventListener("click", function() {
         </div>
         <div class="story">
             <div class="story-container">
-                <a href="dainoi.html" target="_blank">
-                    <img src="picture-vie/codohue.jpg" alt="Saigon">
+                <a href="nhatrangfes.html" target="_blank">
+                    <img src="picture-vie/festival-nhatrang.jpg" alt="Saigon">
                 </a>
-                <h3>Hành Trình Khám Phá Cố Đô: Đại Nội Văn Lâu, Nghênh Lương Đình và Những Ngôi Lăng Tẩm Uy Nghi</h3>
-                <p>Có một sự thật thú vị là hai di tích Huế là Đại Nội Văn Lâu- 
-                    Nghênh Lương Đình là một trong những biểu tượng nổi tiếng của Huế được đưa vào hình 
-                    ảnh trên tờ tiền Việt Nam...</p>
+                <h3>Nha Trang - Điểm hội tụ của những lễ hội</h3>
+                <p>Lễ hội Tháp Bà Ponagar, diễn ra vào tháng 3 âm lịch hàng năm, là một trong những lễ hội lớn nhất của người dân Nha Trang và cũng là Di sản văn hóa phi vật thể Quốc gia...</p>
                 <p style="color: darkslategray;"><b>Blogs</b> &#183; Tác giả &#183; Châu Cổng</p>
             </div>
             <div class="story-container"></div>
@@ -96,6 +94,4 @@ document.getElementById("moreButton").addEventListener("click", function() {
     const existingStoryPart = document.querySelector('.story');
     existingStoryPart.insertAdjacentHTML('afterend', storyHTML);
 });
-
-
 

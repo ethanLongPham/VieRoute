@@ -28,19 +28,68 @@ body, html {
 }
 
 
-.menu-bars {
+.dropdown {
     margin-left: 50px;
 }
 
-.menu-bars {
+.dropdown {
     margin-left: 50px; /* 50px margin from the left edge */
 }
 
-.menu-bars .fa-bars {
+.dropdown .fa-bars {
     color: #fce449; /* Original color */
     font-size: 25px;
     cursor: pointer;
 }
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
 .logo {
     position: absolute;
@@ -200,7 +249,7 @@ body, html {
 
 .bac-bo-content {
     height: 420px;
-    width: 450px;
+    width: 360px;
     position: absolute;
     top: 150px;
     right: 50px;
@@ -212,26 +261,24 @@ body, html {
     padding: 5px 20px;
     border-radius: 15px;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 20px;
     color:#b21c0e;
     text-align: left;
 }
 
 .bac-bo-content button {
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     color: 	#b21c0e;
-    background-color: #ffb09c;
+    background-color: transparent;
     border: none;
-    border-radius: 50px;
     padding: 10px 20px;
     cursor: pointer;
 }
 
 .trung-bo-content {
     height: 420px;
-    width: 450px;
+    width: 360px;
     position: absolute;
     top: 650px;
     left: 50px;
@@ -241,26 +288,24 @@ body, html {
     background-color: #9fcbee;
     padding: 5px 20px;
     border-radius: 15px;
-    margin-top: 20px;
     color: #01016f;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .trung-bo-content button {
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     color: 	#01016f;
-    background-color: #9fcbee;
+    background-color: transparent;
     border: none;
-    border-radius: 50px;
     padding: 10px 20px;
     cursor: pointer;
 }
 
 .nam-bo-content {
     height: 420px;
-    width: 450px;
+    width: 360px;
     position: absolute;
     top: 1200px;
     left: 50px;
@@ -270,19 +315,17 @@ body, html {
     background-color: #E7D8F5;
     padding: 5px 20px;
     border-radius: 15px;
-    margin-top: 20px;
     color:#791DC7;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .nam-bo-content button {
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     color: #791DC7;
-    background-color: #E7D8F5;
+    background-color: transparent;
     border: none;
-    border-radius: 50px;
     padding: 10px 20px;
     cursor: pointer;
 }

@@ -2,7 +2,7 @@
 
 let currentImageIndex = 0;
 const images = [
-    'picture-vie/trada2.jpg',
+    'picture-vie/thapba.jpg',
 ];
 
 const texts = [
@@ -60,11 +60,11 @@ document.getElementById("moreButton").addEventListener("click", function() {
                 <p style="color: darkslategray;"><b>Blogs</b> &#183; Tác giả &#183; Châu Cổng</p>
             </div>
             <div class="story-container">
-                <a href="amthuccodo.html" target="_blank">
-                    <img src="picture-vie/amthuchue.jpg" alt="Saigon">
+                <a href="trada2.html" target="_blank">
+                    <img src="picture-vie/trada2.jpg" alt="Saigon">
                 </a>
-                <h3>Nền ẩm thực cố đô</h3>
-                <p>Theo sử sách, mỗi bữa ăn của vua Khải Định, Đồng Khánh, Minh Mạng… bắt buộc phải có từ 35 đến 50 món, trong đó có vài món thuộc “bát trân”, tức 8 món ăn quý nhất bao gồm...</p>
+                <h3>Tản mạn trà đá Hà Nội - Phần 2</h3>
+                <p>Trà đá luôn mang trong mình một nét đẹp bình dị. Chỉ cần một chiếc bàn gỗ tự chế, vài chiếc ghế dài hay ghế nhựa đơn sơ, mấy cái cốc thủy tinh, vài bao thuốc lá, hộp kẹo, hộp đựng thuốc lào,... </p>
                 <p style="color: darkslategray;"><b>Blogs</b> &#183; Tác giả &#183; Châu Cổng</p>
             </div>
             <div class="story-container">
@@ -96,6 +96,4 @@ document.getElementById("moreButton").addEventListener("click", function() {
     const existingStoryPart = document.querySelector('.story');
     existingStoryPart.insertAdjacentHTML('afterend', storyHTML);
 });
-
-
 

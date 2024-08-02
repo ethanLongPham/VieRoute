@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VieRoute</title>
-    <link rel="stylesheet" href="hue.css">
+    <link rel="stylesheet" href="nhatrangfes.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
     <nav class="navbar">
-        <div class="menu-bars">
-            <i class="fa-solid fa-bars"></i>
+        <div class="dropdown">
+            <button class="dropbtn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="northside.html">Khám phá</a>
+                <a href="vieroute.html#blogs">Blogs</a>
+                <a href="vieroute.html#videos">Videos</a>
+            </div>
         </div>
         <div class="logo">
-            <img src="picture-vie/logo-original.png" alt="VIEROUTES Logo">
+            <a href="vieroute.html"><img src="picture-vie/logo-original.png" alt="VIEROUTES Logo"></a>
         </div>
         <div class="sign-in">
             <button>Đăng Nhập</button>
@@ -156,6 +163,7 @@
                 </a>
                 <h3>Nền ẩm thực cố đô</h3>
                 <p>Theo sử sách, mỗi bữa ăn của vua Khải Định, Đồng Khánh, Minh Mạng… bắt buộc phải có từ 35 đến 50 món, trong đó có vài món thuộc “bát trân”, tức 8 món ăn quý nhất bao gồm...</p>
+                <p style="color: darkslategray;"><b>Blogs</b> &#183; Tác giả &#183; Châu Cổng</p>
             </div>
             <div class="story-container">
                 <a href="link2.html">
@@ -163,6 +171,7 @@
                 </a>
                 <h3>Lạc Bước Ở “Xứ Sở Thần Tiên” Pu Ta Leng</h3>
                 <p>Pu Ta Leng - cái tên nghe vừa hoang sơ, vừa hùng vĩ ấy luôn thôi thúc trái tim những kẻ đam mê chinh phục. Nằm sừng sững giữa đại ngàn Tây Bắc, "nóc nhà thứ hai" của Việt Nam...</p>
+                <p style="color: darkslategray;"><b>Blogs</b> &#183; Tác giả &#183; Châu Cổng</p>
             </div>
             <div class="story-container">
                 <a href="link2.html">
@@ -170,12 +179,15 @@
                 </a>
                 <h3>Nha Trang và những hòn ngọc giấu mình: Khám phá thiên đường biển đảo</h3>
                 <p>Nắng vàng rực rỡ, biển xanh ngắt, cát trắng mịn màng - đó là những gì bạn sẽ được trải nghiệm khi đặt chân đến Nha Trang, "hòn ngọc" của biển Đông...</p>
+                <p style="color: darkslategray;"><b>Blogs</b> &#183; Tác giả &#183; Châu Cổng</p>
             </div>
         </div>
 
         <div class="button-more">
-            <button>Xem thêm</button>
+            <button id="moreButton">Xem thêm</button>
         </div>
+
+        <div class="story"></div>
 
         <div class="footer-container">
             <div class="footer-image">
