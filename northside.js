@@ -6,11 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (bacBoContent.innerHTML === '') {
             bacBoContent.innerHTML = `
                 <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bắc Bộ nằm ở vùng cực 
-                    Bắc lãnh thổ Việt Nam, có phía bắc giáp Trung Quốc, 
-                    phía tây giáp Lào và phía đông giáp biển Đông. Theo cách phân chia hiện 
-                    nay thì vùng Bắc Bộ Việt Nam, bao gồm các tỉnh và thành phố nằm ở phía 
-                    bắc tỉnh Thanh Hóa, gồm có 3 tiểu vùng:
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vùng Bắc Bộ Việt Nam, 
+                    gồm các tỉnh và thành phố nằm ở phía bắc tỉnh Thanh Hóa, trong đó có 3 tiểu vùng:
                 </p>
                 <ul>
                     <li>
@@ -40,12 +37,10 @@ document.addEventListener('DOMContentLoaded', () => {
         if (trungBoContent.innerHTML === '') {
             trungBoContent.innerHTML = `
                 <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Miền Trung Việt Nam còn 
-                    gọi là Trung Bộ, nằm ở phần giữa lãnh thổ của Việt Nam, có phía Bắc giáp
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Trung Bộ, có phía Bắc giáp
                     khu vực đồng bằng Sông Hồng và Trung du miền núi vùng Bắc Bộ; phía Nam
-                    giáp các tỉnh Bình Phước, Đồng Nai và Bà Rịa-Vũng Tàu vùng Nam Bộ; phía
-                    Đông giáp Biển Đông; phía Tây giáp 2 nước Lào và Campuchia. Địa hình miền
-                     Trung gồm 3 khu vực cơ bản là:
+                    giáp các tỉnh Bình Phước, Đồng Nai và Bà Rịa-Vũng Tàu; phía
+                    Đông giáp Biển Đông; phía Tây giáp Lào và Campuchia, gồm 3 khu vực cơ bản là:
                 </p>
                 <ul>
                     <li>
@@ -53,8 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         Quảng Bình, Quảng Trị và Thừa Thiên-Huế.
                     </li>
                     <li>
-                        Nam Trung Bộ Việt Nam gồm 8 tỉnh thành theo thứ tự bắc-nam: Đà Nẵng,
-                        Quảng Nam, Quảng Ngãi, Bình Định, Phú Yên, Khánh Hoà, Ninh Thuận và 
+                        Nam Trung Bộ Việt Nam gồm 8 tỉnh: Đà Nẵng, Quảng Nam, Quảng Ngãi, Bình Định, Phú Yên, Khánh Hoà, Ninh Thuận và 
                         Bình Thuận.
                     </li>
                     <li>
@@ -74,19 +68,18 @@ document.addEventListener('DOMContentLoaded', () => {
         if (namBoContent.innerHTML === '') {
             namBoContent.innerHTML = `
                 <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vùng Nam Bộ khá bằng phẳng, 
-                    phía tây giáp Vịnh Thái Lan, phía đông và Đông Nam giáp biển Đông, phía bắc
-                    và Tây Bắc giáp Campuchia và phía đông bắc giáp với Duyên Hải Nam Trung Bộ và Tây Nguyên.
-                    Nam Bộ có 19 tỉnh và thành phố được chia làm 2 tiểu vùng:
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vùng Nam Bộ 
+                    phía tây giáp Vịnh Thái Lan, phía Đông và Đông Nam giáp biển Đông, phía Bắc
+                    và Tây Bắc giáp Campuchia và phía Đông Bắc giáp với Duyên Hải Nam Trung Bộ và Tây Nguyên, gồm 19 tỉnh và thành phố:
                 </p>
                 <ul>
                     <li>
-                        Đông Nam Bộ (còn gọi là Miền Đông) gồm có 1 thành phố trực thuộc trung ương là 
+                        Đông Nam Bộ gồm có 1 thành phố là 
                         Thành phố Hồ Chí Minh và 5 tỉnh: Bà Rịa – Vũng Tàu, Bình Dương, Bình Phước, Đồng Nai và Tây Ninh.
                     </li>
                     <li>
-                        Đồng bằng sông Cửu Long (còn gọi là Tây Nam Bộ hay Miền Tây) gồm có 1 thành phố trực thuộc Trung ương
-                        là Thành phố Cần Thơ và 12 tỉnh: Long An, Đồng Tháp, An Giang, Tiền Giang, Bến Tre, Vĩnh Long, 
+                        Đồng bằng sông Cửu Long gồm có 1 thành phố
+                        là Cần Thơ và 12 tỉnh: Long An, Đồng Tháp, An Giang, Tiền Giang, Bến Tre, Vĩnh Long, 
                         Trà Vinh, Hậu Giang, Kiên Giang, Sóc Trăng, Bạc Liêu và Cà Mau.
                     </li>
                 </ul>

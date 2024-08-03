@@ -2,7 +2,7 @@
 
 let currentImageIndex = 0;
 const images = [
-    'picture-vie/trada2.jpg',
+    'picture-vie/trada6.jpg',
 ];
 
 const texts = [
@@ -57,7 +57,7 @@ document.getElementById("moreButton").addEventListener("click", function() {
                 </a>
                 <h3>Tản mạn trà đá Hà Nội - Phần 1</h3>
                 <p>Hà Nội là nơi tôn lên văn hoá trà đá nhưng xuất xứ của thức uống bình dị này lại xuất phát từ những tiệm ăn của người Hoa trong miền Nam...</p>
-                <p style="color: darkslategray;"><b>Blogs</b> &#183; Tác giả &#183; Châu Cổng</p>
+                <p style="color: darkslategray;"><b>Blogs</b> &#183; Tác giả &#183; Châu Anh - Hương Ly - Ngọc Lê</p>
             </div>
             <div class="story-container">
                 <a href="amthuccodo.html" target="_blank">
@@ -65,7 +65,7 @@ document.getElementById("moreButton").addEventListener("click", function() {
                 </a>
                 <h3>Nền ẩm thực cố đô</h3>
                 <p>Theo sử sách, mỗi bữa ăn của vua Khải Định, Đồng Khánh, Minh Mạng… bắt buộc phải có từ 35 đến 50 món, trong đó có vài món thuộc “bát trân”, tức 8 món ăn quý nhất bao gồm...</p>
-                <p style="color: darkslategray;"><b>Blogs</b> &#183; Tác giả &#183; Châu Cổng</p>
+                <p style="color: darkslategray;"><b>Blogs</b> &#183; Tác giả &#183; Ngọc Lê</p>
             </div>
             <div class="story-container">
                 <a href="hue.html" target="_blank">
@@ -73,7 +73,7 @@ document.getElementById("moreButton").addEventListener("click", function() {
                 </a>
                 <h3>Huế - Chốn bình yên để "chữa lành" tâm hồn còn xanh</h3>
                 <p>“Huế buồn lắm", một câu nói muôn thuở của những vị khách từng đi du lịch Huế hay thậm chí cả những người còn chưa đặt chân tới vùng đất này...</p>
-                <p style="color: darkslategray;"><b>Blogs</b> &#183; Tác giả &#183; Châu Cổng</p>
+                <p style="color: darkslategray;"><b>Blogs</b> &#183; Tác giả &#183; Châu Anh</p>
             </div>
         </div>
         <div class="story">
@@ -85,7 +85,7 @@ document.getElementById("moreButton").addEventListener("click", function() {
                 <p>Có một sự thật thú vị là hai di tích Huế là Đại Nội Văn Lâu- 
                     Nghênh Lương Đình là một trong những biểu tượng nổi tiếng của Huế được đưa vào hình 
                     ảnh trên tờ tiền Việt Nam...</p>
-                <p style="color: darkslategray;"><b>Blogs</b> &#183; Tác giả &#183; Châu Cổng</p>
+                <p style="color: darkslategray;"><b>Blogs</b> &#183; Tác giả &#183; Hương Ly</p>
             </div>
             <div class="story-container"></div>
             <div class="story-container"></div>
